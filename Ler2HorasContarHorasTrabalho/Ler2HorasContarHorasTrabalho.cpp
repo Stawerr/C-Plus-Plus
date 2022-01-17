@@ -40,4 +40,3 @@ int main()
     int intervaloFinal = conversaoInversa(intervaloTotal);
 
 }
-
