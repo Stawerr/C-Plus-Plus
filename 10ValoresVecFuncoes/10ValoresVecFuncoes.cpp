@@ -50,9 +50,9 @@ int main()
 
     do {
 
-        cout << "Qual o programa a correr? Prima [1] para contar numeros Negativos?"<<"\n";
-        cout << "Qual o programa a correr? Prima [2] para Media de Positivos?" << "\n";
-        cout << "Qual o programa a correr? Prima [3] para Multiplos de 3 e 5?" << "\n";
+        cout << "Prima [1] para contar numeros Negativos?"<<"\n";
+        cout << "Prima [2] para Media de Positivos?" << "\n";
+        cout << "Prima [3] para Multiplos de 3 e 5?" << "\n";
         cout << "Para ler outro vetor Prima [4]" << "\n";
         cout << "Prima 9 para sair" << "\n";
         cin >> valor;
