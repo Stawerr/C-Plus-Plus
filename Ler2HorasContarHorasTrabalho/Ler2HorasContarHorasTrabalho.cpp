@@ -15,7 +15,16 @@ int intervalo(int entrada, int saida) {
     return total;
 }
 int conversaoInversa(int intervaloTotal) {
+ 
+    int hour = intervaloTotal / 3600;
 
+    intervaloTotal %= 3600;
+    int minutes = intervaloTotal / 60;
+
+    intervaloTotal %= 60;
+    int seconds = intervaloTotal;
+
+    cout <<  hour << " " << "Horas " << minutes << " "<< "Minutos " << seconds << " "<< "Segundos " << endl;
     return 0;
 }
 
@@ -26,10 +35,10 @@ int main()
     int horaE, minutoE, segundoE;
     int horaS, minutoS, segundoS;
 
-    cout << "Introduza a hora de entrada HH MM SS";
+    cout << "Introduza a hora de entrada HH MM SS ";
     cin >> horaE >> minutoE >> segundoE;
 
-    cout << "Introduza a hora de saida HH MM SS";
+    cout << "Introduza a hora de saida HH MM SS ";
     cin >> horaS >> minutoS >> segundoS;
 
     int convertidoEntrada = converterEntrada(horaE, minutoE, segundoE);
@@ -38,5 +47,7 @@ int main()
     int intervaloTotal = intervalo(convertidoEntrada, convertidosaida);
 
     int intervaloFinal = conversaoInversa(intervaloTotal);
+
+    return 0;
 
 }
