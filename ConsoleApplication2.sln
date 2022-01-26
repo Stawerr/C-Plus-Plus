@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vetor-idades-maisvelho", "v
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vetor-conjAlturas-parametro", "vetor-conjAlturas-parametro\vetor-conjAlturas-parametro.vcxproj", "{54904ABA-FB59-4726-8DF0-1619AC3744FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "somar2matrizes3x3", "somar2matrizes3x3\somar2matrizes3x3.vcxproj", "{5B5368B2-94D5-459D-B04D-0D0CC54E6123}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multiplicar-2matrizes-3x3", "multiplicar-2matrizes-3x3\multiplicar-2matrizes-3x3.vcxproj", "{2355BD57-52B1-458C-B552-61A79A81EBCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +245,22 @@ Global
 		{54904ABA-FB59-4726-8DF0-1619AC3744FD}.Release|x64.Build.0 = Release|x64
 		{54904ABA-FB59-4726-8DF0-1619AC3744FD}.Release|x86.ActiveCfg = Release|Win32
 		{54904ABA-FB59-4726-8DF0-1619AC3744FD}.Release|x86.Build.0 = Release|Win32
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Debug|x64.ActiveCfg = Debug|x64
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Debug|x64.Build.0 = Debug|x64
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Debug|x86.Build.0 = Debug|Win32
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Release|x64.ActiveCfg = Release|x64
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Release|x64.Build.0 = Release|x64
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Release|x86.ActiveCfg = Release|Win32
+		{5B5368B2-94D5-459D-B04D-0D0CC54E6123}.Release|x86.Build.0 = Release|Win32
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Debug|x64.ActiveCfg = Debug|x64
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Debug|x64.Build.0 = Debug|x64
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Debug|x86.ActiveCfg = Debug|Win32
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Debug|x86.Build.0 = Debug|Win32
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Release|x64.ActiveCfg = Release|x64
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Release|x64.Build.0 = Release|x64
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Release|x86.ActiveCfg = Release|Win32
+		{2355BD57-52B1-458C-B552-61A79A81EBCE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
