@@ -29,5 +29,4 @@ int main()
 	calcFR(a, b, c, &raiz1, &raiz2);
 	cout << "X1:"<< raiz1<<"\n";
 	cout << "X2: "<< raiz2<< "\n";
-
 }

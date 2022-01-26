@@ -19,5 +19,4 @@ int main() {
 
     int fato = fatorial(n);
     cout <<"O fatorial é "<< fato;
-
 }
