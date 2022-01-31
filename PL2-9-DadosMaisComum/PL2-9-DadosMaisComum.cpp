@@ -48,7 +48,7 @@ void dados(int n, int* vec, int* vec2) {
         }
         if (cont == cont1) {
             if (flag == 0) {
-                cout << "os valores mais comuns sao: ";
+                cout << "Os valores mais comuns sao: ";
                 flag++;
             }
             cout<< "["<< i<<"]";
@@ -64,7 +64,7 @@ int main(void) {
 
     int n=0;
 
-    cout<< "Quantos lancamentos quer fazer?"<< "\n";
+    cout<< "Quantos lançamentos quer fazer?"<< "\n";
     cin>> n;
 
     int* vec = new int[n];
@@ -73,7 +73,7 @@ int main(void) {
 
     for (int i = 0; i < n; i++) {
 
-        cout<<"lancamento "<< i + 1  <<" ["<< vec[i]<<"]"<<"["<< vec2[i]<<"]" << "\n";
+        cout<<"Lançamento "<< i + 1  <<" ["<< vec[i]<<"]"<<"["<< vec2[i]<<"]" << "\n";
     }
 
 }
