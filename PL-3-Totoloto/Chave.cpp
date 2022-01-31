@@ -23,6 +23,12 @@ void Chave::lerChave(int* ch) {
 	for (int i = 0; i < 6; i++) {
 		cout << "Introduza um valor na posição "<<i<<"\n";
 		cin >> ch[i];
+		if (ch[i] < 1 || ch[i]>49) {
+			do {
+				cout << "Introduza um valor na posição " << i << "\n";
+				cin >> ch[i];
+			} while (ch[i] < 1 || ch[i]>49);
+		}
 	}
 }
 void Chave::imprimirChave(int n, int* ch) {
@@ -75,4 +81,16 @@ void Chave::ordenaChave(int* ch) {
 			}
 		}
 	}
+}
+int Chave::pesquisaChave(int* ch1) {
+	int cont = 0;
+	int pesq = 0;
+	cout << "Introduza o numero a pesquisar " << "\n";
+	cin >> pesq;
+	for (int i = 0; i < 6; i++) {
+		if (pesq==ch1[i]) {
+			cont++;
+		}
+	}
+	return cont;
 }

@@ -12,4 +12,5 @@ public:
 	static void imprimirChave(int n, int* ch);
 	static void ordenaChave(int* ch);
 	static int verifPremio(int* ch1, int* ch2);
+	static int pesquisaChave(int* ch1);
 };

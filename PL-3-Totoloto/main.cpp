@@ -12,6 +12,9 @@ using namespace std;
 		int* chUs = new int[6];
 		Chave::lerChave(chUs);
 
+		int c = Chave::pesquisaChave(chUs);
+		cout<<"O número que procura apareceu " << c<< " vez!" <<"\n";
+
 		Chave::ordenaChave(chUs);
 		Chave::ordenaChave(chAle);
 
