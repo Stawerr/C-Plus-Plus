@@ -17,9 +17,6 @@ void Agenda::armazenaPessoa(string nome, int idade, float altura) {
 	povo[i].setAltura(altura);
 	i++;
 }
-string toString() {
-
-}
 int Agenda::buscaPessoa(string nome) {
 	return 0;
 }
@@ -27,5 +24,5 @@ void Agenda::imprimePovo() {
 
 }
 void Agenda::imprimePessoa(int i) {
-
+	this->i = i;
 }

@@ -12,7 +12,6 @@ private:
 public:
 	Agenda();
 	Agenda(Pessoa* povo);
-	string toString();
 
 	void armazenaPessoa(string nome, int idade, float altura);
 
