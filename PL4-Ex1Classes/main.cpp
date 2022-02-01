@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, ("portuguese"));
-	string nome;
+	/* string nome;
 	int idade;
 	double altura;
 
@@ -31,7 +31,7 @@ int main()
 	cout << p.getAltura() << "\n";
 
 	Pessoa b(nome, idade, altura);
-	cout << b.toString();
+	cout << b.toString(); */
 
 	char linha[] = "------------------------------------------------\n";
 
@@ -39,7 +39,7 @@ int main()
 	A.armazenaPessoa("Abel", 22, 1.78);
 	A.armazenaPessoa("Tiago", 20, 1.80);
 	A.imprimePovo();
-	A.armazenaPessoa(b.getNome(),b.getIdade(),b.getAltura());
+	//A.armazenaPessoa(b.getNome(),b.getIdade(),b.getAltura());
 	cout << linha;
 
 	int posicao = A.buscaPessoa("Tiago");
