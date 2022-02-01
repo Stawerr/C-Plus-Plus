@@ -16,35 +16,39 @@ using namespace std;
 		cout<<"O número que procura apareceu " << c<< " vez!" <<"\n";
 
 		Chave::ordenaChave(chUs);
-		Chave::ordenaChave(chAle);
+		//Chave::ordenaChave(chAle);
 
+		cout << "\n" << "A sua chave:" << "\n";
 		Chave::imprimirChave(6, chUs);
-		cout << "\n";
-		Chave::imprimirChave(6, chAle);
-		cout << "\n";
 
+		cout << "\n" << "\n"<<"A chave premiada:"<<"\n";
+		Chave::imprimirChave(6, chAle);
+		cout << "\n" << "\n";
+
+		cout << "Resultado:"<<"\n";
 		int valid = Chave::verifPremio(chAle, chUs);
 		switch (valid) {
 		case 1:
 				cout << "Acertou 6 números";
 			break;
 		case 2:
-			cout << "Acertou 5 números ";
+			cout << "Acertou 5 números";
 			break;
 		case 3:
-			cout << "Acertou 4 números ";
+			cout << "Acertou 4 números";
 			break;
 		case 4:
-			cout << "Acertou 3 números ";
+			cout << "Acertou 3 números";
 			break;
 		case 5:
-			cout << "Acertou 2 números ";
+			cout << "Acertou 2 números";
 			break;
 		case 6:
-			cout << "Acertou 1 números ";
+			cout << "Acertou 1 número";
 			break;
 		case 0:
 			cout << "Não acertou qualquer número";
 			break;
 		}
+		cout << "\n";
 	}

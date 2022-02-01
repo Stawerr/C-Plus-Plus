@@ -20,12 +20,18 @@ void Chave::gerarChaveAleatoria(int* ch) {
 	}
 }
 void Chave::lerChave(int* ch) {
+	cout << "----------------------------------------------" << "\n";
+	cout << "------------Bem Vindo ao TOTOLOTO-------------" << "\n";
+	cout << "----------------------------------------------" << "\n";
+	cout << "-----------------Boa Sorte!!------------------" << "\n";
+	cout << "----------------------------------------------" << "\n";
+
 	for (int i = 0; i < 6; i++) {
-		cout << "Introduza um valor na posição "<<i<<"\n";
+		cout << "Digite o seu palpite "<<"\n";
 		cin >> ch[i];
 		if (ch[i] < 1 || ch[i]>49) {
 			do {
-				cout << "Introduza um valor na posição " << i << "\n";
+				cout << "Numero errado, digite de novo " << "\n";
 				cin >> ch[i];
 			} while (ch[i] < 1 || ch[i]>49);
 		}
