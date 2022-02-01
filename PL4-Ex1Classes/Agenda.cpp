@@ -11,15 +11,17 @@ Agenda::Agenda(Pessoa* povo) {
 	this->povo = povo;
 }
 void Agenda::armazenaPessoa(string nome, int idade, float altura) {
-	int i=0;
 
 	povo[i].setNome(nome);
 	povo[i].setIdade(idade);
 	povo[i].setAltura(altura);
 	i++;
 }
+string toString() {
+
+}
 int Agenda::buscaPessoa(string nome) {
-	
+	return 0;
 }
 void Agenda::imprimePovo() {
 

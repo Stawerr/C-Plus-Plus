@@ -7,10 +7,12 @@ using namespace std;
 class Agenda {
 	
 	Pessoa* povo = new Pessoa[10];
-
+private:
+	int i=0;
 public:
 	Agenda();
 	Agenda(Pessoa* povo);
+	string toString();
 
 	void armazenaPessoa(string nome, int idade, float altura);
 
