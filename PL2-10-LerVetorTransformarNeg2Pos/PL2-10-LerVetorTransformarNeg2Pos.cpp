@@ -7,12 +7,10 @@ int comparaVetor(int* vec, int n) {
         cin >> vec[i];
     }
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            if (vec[i]<0) {
-                vec[i] = 0;
-                cont++;
-            }
-        }
+           if (vec[i]<0) {
+               vec[i] = 0;
+               cont++;
+           }
     }
     return cont;
 }
